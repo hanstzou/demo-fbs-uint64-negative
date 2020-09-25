@@ -10,6 +10,7 @@ Demonstrate flatbuffers v1.12 TS returns negative values for uint64.
 | @types/flatbuffers    | 1.10.0    |
 | node                  | 14.4.0    |
 | ts-node               | 9.0.0     |
+| typescript            | 4.0.3     |
 
 ## Issue
 `flatbuffers.Long` mistakenly converts uint32 values to signed value with `low | 0` or `high | 0`.
@@ -41,7 +42,7 @@ Actual result: U32 == U64.low is false
     }
     ```
 
- 2. Generate TypeScript and CPP code with `flatc` utility.
+ 2. Generate TypeScript and C++ code with `flatc` utility.
     ```
     flatc -o . --ts --no-fb-import --no-ts-reexport fbs/Product.fbs
     flatc -o . --cpp --no-fb-import fbs/Product.fbs

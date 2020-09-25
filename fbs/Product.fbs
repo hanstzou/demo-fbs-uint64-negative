@@ -1,0 +1,4 @@
+table Product {
+    U32: uint32;
+    U64: uint64;
+}

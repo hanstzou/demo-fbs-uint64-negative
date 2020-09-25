@@ -1,0 +1,27 @@
+{
+  "name": "demo-fbs-uint64-negative",
+  "version": "1.0.0",
+  "description": "Demonstrate flatbuffers v1.12 TS returns negative values for uint64.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanstzou/demo-fbs-uint64-negative.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hanstzou/demo-fbs-uint64-negative/issues"
+  },
+  "homepage": "https://github.com/hanstzou/demo-fbs-uint64-negative#readme",
+  "dependencies": {
+    "@types/flatbuffers": "^1.10.0",
+    "flatbuffers": "^1.12.0"
+  },
+  "devDependencies": {
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  }
+}
